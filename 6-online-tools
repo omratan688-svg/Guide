@@ -1,0 +1,1686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>6 Free Tools for Sellers, Freelancers & Creators | Guide</title>
+
+  <meta
+    name="description"
+    content="Discover six useful online tools for sellers, freelancers and creators: Stripe Fee Calculator, Vinted Fee Calculator, Venmo Fee Calculator, Depop Fee Calculator, Fiverr Earnings Calculator and Twitch Title Generator."
+  >
+
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  >
+
+  <meta name="author" content="Omratan">
+  <meta name="theme-color" content="#0b1220">
+
+  <!-- CHANGE THIS ONLY IF YOU RENAME THE FOLDER -->
+  <link
+    rel="canonical"
+    href="https://omratan688-svg.github.io/Guide/"
+  >
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta
+    property="og:title"
+    content="6 Free Tools for Sellers, Freelancers & Creators"
+  >
+  <meta
+    property="og:description"
+    content="Useful calculators and generators for online sellers, freelancers and creators."
+  >
+  <meta
+    property="og:url"
+    content="https://omratan688-svg.github.io/Guide/"
+  >
+  <meta property="og:site_name" content="Online Tools Guide">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary">
+  <meta
+    name="twitter:title"
+    content="6 Free Tools for Sellers, Freelancers & Creators"
+  >
+  <meta
+    name="twitter:description"
+    content="Explore six practical tools for fees, earnings and content creation."
+  >
+
+  <!--
+    ============================================================
+    STRUCTURED DATA
+    ============================================================
+  -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+
+      {
+        "@type": "WebPage",
+        "@id": "https://omratan688-svg.github.io/Guide/#webpage",
+        "url": "https://omratan688-svg.github.io/Guide/",
+        "name": "6 Free Tools for Sellers, Freelancers & Creators",
+        "description": "A guide to useful online calculators and generators for sellers, freelancers and creators.",
+        "inLanguage": "en-US",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Online Tools Guide",
+          "url": "https://omratan688-svg.github.io/"
+        }
+      },
+
+      {
+        "@type": "Article",
+        "@id": "https://omratan688-svg.github.io/Guide/#article",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://omratan688-svg.github.io/Guide/"
+        },
+        "headline": "6 Free Tools for Sellers, Freelancers & Creators",
+        "description": "Discover six useful online tools for sellers, freelancers and creators.",
+        "datePublished": "2026-08-09",
+        "dateModified": "2026-08-09",
+        "author": {
+          "@type": "Person",
+          "name": "Omratan"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Omratan"
+        },
+        "inLanguage": "en-US",
+        "articleSection": "Online Tools",
+        "keywords": [
+          "Stripe Fee Calculator",
+          "Vinted Fee Calculator",
+          "Venmo Fee Calculator",
+          "Depop Fee Calculator",
+          "Fiverr Earnings Calculator",
+          "Twitch Title Generator"
+        ]
+      },
+
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://omratan688-svg.github.io/Guide/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://omratan688-svg.github.io/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Guide",
+            "item": "https://omratan688-svg.github.io/Guide/"
+          }
+        ]
+      }
+
+    ]
+  }
+  </script>
+
+  <style>
+
+    /* =========================================================
+       BASE
+       ========================================================= */
+
+    :root {
+      --bg: #f6f8fc;
+      --card: #ffffff;
+      --text: #101828;
+      --muted: #667085;
+      --border: #e4e7ec;
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --soft-blue: #eff6ff;
+      --dark: #0b1220;
+      --green: #15803d;
+      --max: 1180px;
+      --radius: 18px;
+      --shadow: 0 10px 35px rgba(16, 24, 40, .07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+      line-height: 1.75;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(calc(100% - 32px), var(--max));
+      margin: auto;
+    }
+
+    /* =========================================================
+       HEADER
+       ========================================================= */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,.94);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(12px);
+    }
+
+    .nav {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-size: 1.35rem;
+      font-weight: 900;
+      letter-spacing: -.04em;
+      color: var(--text);
+    }
+
+    .logo:hover {
+      text-decoration: none;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: .94rem;
+      font-weight: 700;
+    }
+
+    .nav-links a {
+      color: #344054;
+    }
+
+    .nav-cta {
+      background: var(--primary);
+      color: #fff !important;
+      padding: 9px 15px;
+      border-radius: 10px;
+    }
+
+    .nav-cta:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    /* =========================================================
+       BREADCRUMB
+       ========================================================= */
+
+    .breadcrumb {
+      padding: 24px 0 12px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    .breadcrumb span {
+      margin: 0 7px;
+    }
+
+    .breadcrumb a {
+      color: var(--muted);
+    }
+
+    /* =========================================================
+       HERO
+       ========================================================= */
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: clamp(28px, 6vw, 65px);
+      margin-bottom: 30px;
+      box-shadow: var(--shadow);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--soft-blue);
+      color: #1d4ed8;
+      padding: 7px 12px;
+      border-radius: 999px;
+      font-size: .78rem;
+      font-weight: 850;
+      letter-spacing: .04em;
+      margin-bottom: 17px;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      max-width: 900px;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      line-height: 1.07;
+      letter-spacing: -.055em;
+    }
+
+    .hero-description {
+      max-width: 800px;
+      margin: 0 0 22px;
+      font-size: clamp(1.04rem, 2vw, 1.2rem);
+      color: #475467;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 15px;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    /* =========================================================
+       MAIN LAYOUT
+       ========================================================= */
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 285px;
+      gap: 28px;
+      align-items: start;
+    }
+
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: clamp(23px, 5vw, 50px);
+      box-shadow: var(--shadow);
+      min-width: 0;
+    }
+
+    article h2 {
+      margin: 45px 0 15px;
+      font-size: clamp(1.55rem, 3vw, 2.15rem);
+      line-height: 1.2;
+      letter-spacing: -.035em;
+      scroll-margin-top: 90px;
+    }
+
+    article h3 {
+      margin: 28px 0 10px;
+      font-size: 1.25rem;
+      line-height: 1.3;
+    }
+
+    article p {
+      color: #344054;
+      margin: 0 0 18px;
+    }
+
+    article ul {
+      color: #344054;
+      padding-left: 22px;
+    }
+
+    article li {
+      margin: 7px 0;
+    }
+
+    /* =========================================================
+       INTRO
+       ========================================================= */
+
+    .intro {
+      background: #f8fafc;
+      border-left: 4px solid var(--primary);
+      padding: 19px 21px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+
+    /* =========================================================
+       TOOL CARDS
+       ========================================================= */
+
+    .tool {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 25px;
+      margin: 30px 0;
+      background: #fff;
+      transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+    }
+
+    .tool:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(16,24,40,.08);
+    }
+
+    .number {
+      width: 35px;
+      height: 35px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: var(--soft-blue);
+      color: #1d4ed8;
+      font-weight: 900;
+      margin-bottom: 12px;
+    }
+
+    .tool h2 {
+      margin-top: 0;
+    }
+
+    .tool-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 10px;
+      font-weight: 800;
+      margin-top: 5px;
+    }
+
+    .tool-button:hover {
+      background: var(--primary-dark);
+      text-decoration: none;
+    }
+
+    /* =========================================================
+       FORMULA / TIP
+       ========================================================= */
+
+    .formula {
+      background: #f8fafc;
+      border: 1px dashed #cbd5e1;
+      border-radius: 11px;
+      padding: 15px 17px;
+      margin: 19px 0;
+      font-weight: 800;
+      color: var(--text);
+    }
+
+    .tip {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 13px;
+      padding: 19px;
+      margin: 23px 0;
+    }
+
+    .tip strong {
+      color: var(--green);
+    }
+
+    /* =========================================================
+       TABLE
+       ========================================================= */
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      margin: 25px 0;
+    }
+
+    table {
+      width: 100%;
+      min-width: 650px;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 15px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      background: #f8fafc;
+      font-size: .9rem;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    /* =========================================================
+       TOC
+       ========================================================= */
+
+    .toc {
+      position: sticky;
+      top: 90px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 21px;
+      box-shadow: var(--shadow);
+    }
+
+    .toc-title {
+      font-weight: 900;
+      margin-bottom: 10px;
+    }
+
+    .toc a {
+      display: block;
+      color: #475467;
+      padding: 7px 0;
+      font-size: .9rem;
+      line-height: 1.4;
+    }
+
+    .toc a:hover {
+      color: var(--primary);
+    }
+
+    /* =========================================================
+       FAQ
+       ========================================================= */
+
+    details {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      margin: 10px 0;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 17px 18px;
+      font-weight: 800;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    summary::after {
+      content: "+";
+      float: right;
+      color: var(--muted);
+      font-size: 1.2rem;
+    }
+
+    details[open] summary::after {
+      content: "−";
+    }
+
+    details p {
+      padding: 0 18px 18px;
+      margin: 0;
+    }
+
+    /* =========================================================
+       CTA
+       ========================================================= */
+
+    .cta {
+      background: var(--dark);
+      color: #fff;
+      padding: 30px;
+      border-radius: 18px;
+      margin-top: 45px;
+    }
+
+    .cta h2 {
+      margin-top: 0;
+      color: #fff;
+    }
+
+    .cta p {
+      color: #cbd5e1;
+    }
+
+    .cta-link {
+      color: #fff;
+      font-weight: 800;
+      text-decoration: underline;
+    }
+
+    /* =========================================================
+       FOOTER
+       ========================================================= */
+
+    footer {
+      margin-top: 45px;
+      background: #fff;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-inner {
+      width: min(calc(100% - 32px), var(--max));
+      margin: auto;
+      padding: 30px 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    /* =========================================================
+       ACCESSIBILITY
+       ========================================================= */
+
+    .skip {
+      position: absolute;
+      left: -9999px;
+      top: 10px;
+      background: #fff;
+      padding: 10px 15px;
+      border: 2px solid var(--primary);
+      border-radius: 8px;
+    }
+
+    .skip:focus {
+      left: 10px;
+      z-index: 9999;
+    }
+
+    /* =========================================================
+       MOBILE
+       ========================================================= */
+
+    @media (max-width: 850px) {
+
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+        order: -1;
+      }
+
+      .nav-links a:not(.nav-cta) {
+        display: none;
+      }
+
+    }
+
+    @media (max-width: 600px) {
+
+      .container {
+        width: min(calc(100% - 20px), var(--max));
+      }
+
+      .nav {
+        min-height: 60px;
+      }
+
+      .hero {
+        padding: 29px 20px;
+        border-radius: 18px;
+      }
+
+      article {
+        padding: 22px 18px;
+        border-radius: 14px;
+      }
+
+      h1 {
+        font-size: 2.25rem;
+      }
+
+      .tool {
+        padding: 20px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <a class="skip" href="#main">
+    Skip to content
+  </a>
+
+  <!-- ========================================================
+       HEADER
+       ======================================================== -->
+
+  <header>
+
+    <nav class="nav container" aria-label="Main navigation">
+
+      <a
+        class="logo"
+        href="https://omratan688-svg.github.io/"
+        aria-label="Online Tools Guide home"
+      >
+        Tools Guide
+      </a>
+
+      <div class="nav-links">
+
+        <a href="https://omratan688-svg.github.io/Guide/">
+          Guide
+        </a>
+
+        <a
+          class="nav-cta"
+          href="https://www.tekzo.tech/tools/"
+          rel="noopener"
+        >
+          Explore Tools
+        </a>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!-- ========================================================
+       MAIN
+       ======================================================== -->
+
+  <main id="main" class="container">
+
+    <!-- Breadcrumb -->
+
+    <nav
+      class="breadcrumb"
+      aria-label="Breadcrumb"
+    >
+
+      <a href="https://omratan688-svg.github.io/">
+        Home
+      </a>
+
+      <span aria-hidden="true">›</span>
+
+      <a href="https://omratan688-svg.github.io/Guide/">
+        Guide
+      </a>
+
+      <span aria-hidden="true">›</span>
+
+      <span>Online Tools</span>
+
+    </nav>
+
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+      <div class="badge">
+        ONLINE TOOLS GUIDE
+      </div>
+
+      <h1>
+        6 Free Online Tools for Sellers, Freelancers &amp; Creators
+      </h1>
+
+      <p class="hero-description">
+        From calculating payment and marketplace fees to estimating
+        freelance earnings and generating better Twitch titles,
+        these six practical tools can make everyday online work
+        faster and easier.
+      </p>
+
+      <div class="meta">
+
+        <span>
+          By Omratan
+        </span>
+
+        <span>•</span>
+
+        <time datetime="2026-08-09">
+          Updated August 9, 2026
+        </time>
+
+        <span>•</span>
+
+        <span>
+          Online Tools
+        </span>
+
+      </div>
+
+    </section>
+
+
+    <!-- Content -->
+
+    <div class="content-grid">
+
+      <article>
+
+        <div class="intro">
+
+          <strong>Quick overview:</strong>
+
+          If you sell products online, accept digital payments,
+          freelance on marketplaces, or create content, repetitive
+          calculations and brainstorming can take unnecessary time.
+          These tools are designed to simplify those tasks.
+
+        </div>
+
+
+        <p>
+          Making money online involves more than simply listing a
+          product or publishing a service. Sellers need to understand
+          costs, freelancers need to estimate their actual earnings,
+          and creators need fresh ideas for their content.
+        </p>
+
+        <p>
+          Manually calculating fees for every transaction or coming
+          up with a new title every time you stream can become
+          repetitive. Specialized online tools can make these
+          everyday tasks much faster.
+        </p>
+
+        <p>
+          Here are six practical tools for different parts of the
+          online selling, freelancing, payment, and creator economy.
+        </p>
+
+
+        <!-- ====================================================
+             TOOL 1
+             ==================================================== -->
+
+        <section
+          class="tool"
+          id="stripe-fee-calculator"
+        >
+
+          <span class="number">1</span>
+
+          <h2>
+            Stripe Fee Calculator
+          </h2>
+
+          <p>
+            Online businesses, freelancers, and creators often
+            accept payments through payment processors. The amount
+            a customer pays may not be identical to the amount
+            received after applicable processing costs.
+          </p>
+
+          <p>
+            The
+            <a
+              href="https://www.tekzo.tech/tools/stripe-fee-calculator"
+            >
+              Stripe Fee Calculator
+            </a>
+            helps you estimate potential payment processing costs
+            and understand the amount that may remain from a
+            transaction.
+          </p>
+
+          <p>
+            It can be useful when you're pricing a service,
+            sending an invoice, checking a transaction, or
+            comparing different payment amounts.
+          </p>
+
+          <h3>
+            Who can use it?
+          </h3>
+
+          <ul>
+            <li>Freelancers accepting payments</li>
+            <li>Small online businesses</li>
+            <li>SaaS businesses</li>
+            <li>Digital product sellers</li>
+            <li>Online service providers</li>
+            <li>Creators selling products or services</li>
+          </ul>
+
+          <p>
+            Instead of estimating the deduction manually,
+            you can quickly check a transaction and use the
+            result as part of your pricing calculations.
+          </p>
+
+          <a
+            class="tool-button"
+            href="https://www.tekzo.tech/tools/stripe-fee-calculator"
+          >
+            Calculate Stripe Fees →
+          </a>
+
+        </section>
+
+
+        <!-- ====================================================
+             TOOL 2
+             ==================================================== -->
+
+        <section
+          class="tool"
+          id="vinted-fee-calculator"
+        >
+
+          <span class="number">2</span>
+
+          <h2>
+            Vinted Fee Calculator
+          </h2>
+
+          <p>
+            Reselling second-hand clothing can be a simple way
+            to turn unused items or sourced inventory into
+            extra income. However, the listed selling price
+            isn't necessarily the same as your final profit.
+          </p>
+
+          <p>
+            The
+            <a
+              href="https://www.tekzo.tech/tools/vinted-fee-calculator"
+            >
+              Vinted Fee Calculator
+            </a>
+            helps sellers estimate the numbers associated with
+            a Vinted sale and think more clearly about potential
+            margins.
+          </p>
+
+          <p>
+            This is particularly useful when you're deciding
+            whether an item is worth sourcing for resale.
+          </p>
+
+          <div class="formula">
+            Estimated profit = Selling price − purchase cost − applicable costs
+          </div>
+
+          <h3>
+            Useful for resellers
+          </h3>
+
+          <ul>
+            <li>Clothing sellers</li>
+            <li>Vintage resellers</li>
+            <li>Second-hand sellers</li>
+            <li>Casual Vinted sellers</li>
+            <li>People starting a resale business</li>
+          </ul>
+
+          <p>
+            Checking the numbers before buying inventory can
+            help you avoid products with margins that are too
+            small to justify the effort.
+          </p>
+
+          <a
+            class="tool-button"
+            href="https://www.tekzo.tech/tools/vinted-fee-calculator"
+          >
+            Calculate Vinted Fees →
+          </a>
+
+        </section>
+
+
+        <!-- ====================================================
+             TOOL 3
+             ==================================================== -->
+
+        <section
+          class="tool"
+          id="venmo-fee-calculator"
+        >
+
+          <span class="number">3</span>
+
+          <h2>
+            Venmo Fee Calculator
+          </h2>
+
+          <p>
+            Payment costs can vary depending on the type of
+            transaction and the circumstances of the payment.
+            Checking the potential cost before a transaction
+            can make pricing and payout estimates easier.
+          </p>
+
+          <p>
+            The
+            <a
+              href="https://www.tekzo.tech/tools/venmo-fee-calculator"
+            >
+              Venmo Fee Calculator
+            </a>
+            gives you a quick way to estimate transaction costs
+            and understand the potential amount involved.
+          </p>
+
+          <h3>
+            Why calculate payment costs?
+          </h3>
+
+          <ul>
+            <li>Estimate potential deductions</li>
+            <li>Understand your expected payout</li>
+            <li>Plan pricing more accurately</li>
+            <li>Compare different payment amounts</li>
+            <li>Reduce surprises when receiving payments</li>
+          </ul>
+
+          <p>
+            For people processing many payments, small
+            transaction costs can add up. Estimating them
+            beforehand can make financial planning easier.
+          </p>
+
+          <a
+            class="tool-button"
+            href="https://www.tekzo.tech/tools/venmo-fee-calculator"
+          >
+            Calculate Venmo Fees →
+          </a>
+
+        </section>
+
+
+        <!-- ====================================================
+             TOOL 4
+             ==================================================== -->
+
+        <section
+          class="tool"
+          id="depop-fee-calculator"
+        >
+
+          <span class="number">4</span>
+
+          <h2>
+            Depop Fee Calculator
+          </h2>
+
+          <p>
+            Depop is popular with sellers of fashion, vintage
+            clothing, streetwear, and second-hand products.
+            For resellers, knowing the difference between
+            revenue and actual profit is important.
+          </p>
+
+          <p>
+            The
+            <a
+              href="https://www.tekzo.tech/tools/depop-fee-calculator"
+            >
+              Depop Fee Calculator
+            </a>
+            helps sellers estimate potential selling costs and
+            understand the possible margin on a transaction.
+          </p>
+
+          <p>
+            For example, if an item costs $15 and sells for $40,
+            the $25 difference isn't automatically your profit.
+            Other applicable costs may need to be considered.
+          </p>
+
+          <div class="formula">
+            Estimated profit = Sale price − item cost − applicable selling costs
+          </div>
+
+          <h3>
+            Good for fashion resellers
+          </h3>
+
+          <ul>
+            <li>Vintage clothing sellers</li>
+            <li>Streetwear resellers</li>
+            <li>Thrift resellers</li>
+            <li>Second-hand fashion sellers</li>
+            <li>Small resale businesses</li>
+          </ul>
+
+          <p>
+            Running the numbers before sourcing an item can
+            help you focus on products with a more attractive
+            potential margin.
+          </p>
+
+          <a
+            class="tool-button"
+            href="https://www.tekzo.tech/tools/depop-fee-calculator"
+          >
+            Calculate Depop Fees →
+          </a>
+
+        </section>
+
+
+        <!-- ====================================================
+             TOOL 5
+             ==================================================== -->
+
+        <section
+          class="tool"
+          id="fiverr-earnings-calculator"
+        >
+
+          <span class="number">5</span>
+
+          <h2>
+            Fiverr Earnings Calculator
+          </h2>
+
+          <p>
+            Freelancers often think about income based on the
+            price shown on a gig. However, the listed amount and
+            the final amount received may not always be the same.
+          </p>
+
+          <p>
+            The
+            <a
+              href="https://www.tekzo.tech/tools/fiverr-earnings-calculator"
+            >
+              Fiverr Earnings Calculator
+            </a>
+            helps freelancers estimate potential earnings from
+            a project price.
+          </p>
+
+          <p>
+            This can be useful when setting a gig price,
+            calculating an income target, or comparing different
+            project prices.
+          </p>
+
+          <h3>
+            Useful for many freelance services
+          </h3>
+
+          <ul>
+            <li>Graphic design</li>
+            <li>Writing and editing</li>
+            <li>Video editing</li>
+            <li>Programming</li>
+            <li>SEO services</li>
+            <li>Voice-over work</li>
+            <li>Virtual assistance</li>
+            <li>Social media services</li>
+          </ul>
+
+          <div class="tip">
+
+            <strong>Pricing tip:</strong>
+
+            Consider platform costs, the time required for the
+            project, revisions, taxes where applicable, and
+            other business expenses when setting freelance rates.
+
+          </div>
+
+          <a
+            class="tool-button"
+            href="https://www.tekzo.tech/tools/fiverr-earnings-calculator"
+          >
+            Calculate Fiverr Earnings →
+          </a>
+
+        </section>
+
+
+        <!-- ====================================================
+             TOOL 6
+             ==================================================== -->
+
+        <section
+          class="tool"
+          id="twitch-title-generator"
+        >
+
+          <span class="number">6</span>
+
+          <h2>
+            Twitch Title Generator
+          </h2>
+
+          <p>
+            Not every creator problem involves calculations.
+            Streamers also need to repeatedly come up with
+            titles that accurately describe their broadcasts.
+          </p>
+
+          <p>
+            The
+            <a
+              href="https://www.tekzo.tech/tools/twitch-title-generator"
+            >
+              Twitch Title Generator
+            </a>
+            helps creators brainstorm title ideas for different
+            types of streams.
+          </p>
+
+          <p>
+            A useful stream title should tell viewers what the
+            broadcast is about while giving them a reason to
+            take a closer look. It doesn't need to rely on
+            misleading clickbait.
+          </p>
+
+          <h3>
+            Stream ideas it can help with
+          </h3>
+
+          <ul>
+            <li>Gaming streams</li>
+            <li>Ranked gameplay</li>
+            <li>Challenge streams</li>
+            <li>First-time playthroughs</li>
+            <li>Competitive matches</li>
+            <li>Just Chatting</li>
+            <li>New game launches</li>
+            <li>Community events</li>
+          </ul>
+
+          <p>
+            Generated ideas work best as starting points.
+            Customize the final title so it accurately matches
+            what you're actually streaming.
+          </p>
+
+          <a
+            class="tool-button"
+            href="https://www.tekzo.tech/tools/twitch-title-generator"
+          >
+            Generate Twitch Titles →
+          </a>
+
+        </section>
+
+
+        <!-- ====================================================
+             COMPARISON
+             ==================================================== -->
+
+        <h2 id="comparison">
+          Which Tool Should You Use?
+        </h2>
+
+        <p>
+          Each tool solves a different problem. The best choice
+          depends on whether you're selling products, accepting
+          payments, freelancing, or creating content.
+        </p>
+
+        <div class="table-wrap">
+
+          <table>
+
+            <thead>
+              <tr>
+                <th>Tool</th>
+                <th>Best for</th>
+                <th>Main purpose</th>
+              </tr>
+            </thead>
+
+            <tbody>
+
+              <tr>
+                <td>
+                  <a href="https://www.tekzo.tech/tools/stripe-fee-calculator">
+                    Stripe Fee Calculator
+                  </a>
+                </td>
+                <td>
+                  Businesses &amp; freelancers
+                </td>
+                <td>
+                  Estimate payment costs
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="https://www.tekzo.tech/tools/vinted-fee-calculator">
+                    Vinted Fee Calculator
+                  </a>
+                </td>
+                <td>
+                  Vinted sellers
+                </td>
+                <td>
+                  Estimate selling costs
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="https://www.tekzo.tech/tools/venmo-fee-calculator">
+                    Venmo Fee Calculator
+                  </a>
+                </td>
+                <td>
+                  Payment users
+                </td>
+                <td>
+                  Estimate transaction costs
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="https://www.tekzo.tech/tools/depop-fee-calculator">
+                    Depop Fee Calculator
+                  </a>
+                </td>
+                <td>
+                  Fashion resellers
+                </td>
+                <td>
+                  Estimate selling costs and margin
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="https://www.tekzo.tech/tools/fiverr-earnings-calculator">
+                    Fiverr Earnings Calculator
+                  </a>
+                </td>
+                <td>
+                  Freelancers
+                </td>
+                <td>
+                  Estimate freelance earnings
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <a href="https://www.tekzo.tech/tools/twitch-title-generator">
+                    Twitch Title Generator
+                  </a>
+                </td>
+                <td>
+                  Twitch creators
+                </td>
+                <td>
+                  Generate stream title ideas
+                </td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+
+
+        <!-- ====================================================
+             WHY TOOLS
+             ==================================================== -->
+
+        <h2 id="why-tools">
+          Why Online Calculators and Generators Are Useful
+        </h2>
+
+        <p>
+          Specialized tools are useful because they remove
+          repetitive work. Instead of remembering calculation
+          steps or starting from a blank page every time, you
+          can use a tool designed for the specific task.
+        </p>
+
+        <p>
+          Calculators can also make comparison easier. A seller
+          can test different prices, while a freelancer can
+          compare several potential gig prices before choosing
+          a rate.
+        </p>
+
+        <p>
+          Generators solve a different problem. For creators,
+          they reduce the friction between having an idea and
+          turning that idea into a usable starting point.
+        </p>
+
+        <div class="tip">
+
+          <strong>Important:</strong>
+
+          Calculator results should be treated as estimates.
+          Always check the current official fee rules and terms
+          of the relevant platform or payment service because
+          fees and policies can change.
+
+        </div>
+
+
+        <!-- ====================================================
+             WORKFLOW
+             ==================================================== -->
+
+        <h2 id="workflow">
+          A Simple Workflow for Sellers and Creators
+        </h2>
+
+        <h3>
+          1. Calculate before pricing
+        </h3>
+
+        <p>
+          Estimate relevant costs before choosing a final
+          selling or service price. This gives you a clearer
+          picture of your potential margin.
+        </p>
+
+        <h3>
+          2. Compare realistic scenarios
+        </h3>
+
+        <p>
+          Test more than one price when possible. Comparing
+          different scenarios can show how changes in price
+          affect your estimated earnings or profit.
+        </p>
+
+        <h3>
+          3. Include your real costs
+        </h3>
+
+        <p>
+          Platform calculations are only one part of the
+          picture. Your actual business costs may also include
+          inventory, shipping, refunds, advertising, software,
+          taxes, and your time.
+        </p>
+
+        <h3>
+          4. Customize generated ideas
+        </h3>
+
+        <p>
+          If you use a title generator, treat the suggestions
+          as a starting point. Adjust them so the final title
+          accurately represents your actual content.
+        </p>
+
+
+        <!-- ====================================================
+             FAQ
+             ==================================================== -->
+
+        <h2 id="faq">
+          Frequently Asked Questions
+        </h2>
+
+        <details>
+
+          <summary>
+            What is a fee calculator?
+          </summary>
+
+          <p>
+            A fee calculator is an online tool that estimates
+            transaction, marketplace, or platform costs based
+            on information entered by the user.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            Why should sellers calculate fees before listing?
+          </summary>
+
+          <p>
+            Calculating potential costs before listing can help
+            sellers estimate their possible profit and choose
+            prices with a clearer understanding of expenses.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            Can freelancers use earnings calculators?
+          </summary>
+
+          <p>
+            Yes. Freelancers can use earnings calculators to
+            estimate potential net earnings from a project and
+            make more informed pricing decisions.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            What is a Twitch title generator?
+          </summary>
+
+          <p>
+            A Twitch title generator is a brainstorming tool
+            that creates stream-title ideas based on the type
+            of content a creator wants to broadcast.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            Are calculator results always exact?
+          </summary>
+
+          <p>
+            Not necessarily. Results depend on the assumptions
+            and fee rules used by the calculator. Platform
+            policies can change, so important financial
+            decisions should be checked against current
+            official information.
+          </p>
+
+        </details>
+
+
+        <details>
+
+          <summary>
+            Which tool is useful for clothing resellers?
+          </summary>
+
+          <p>
+            Vinted sellers can use the Vinted Fee Calculator,
+            while Depop sellers can use the Depop Fee Calculator.
+            The most useful choice depends on the marketplace
+            where you sell.
+          </p>
+
+        </details>
+
+
+        <!-- ====================================================
+             CTA
+             ==================================================== -->
+
+        <section class="cta">
+
+          <h2>
+            Ready to calculate or create?
+          </h2>
+
+          <p>
+            Choose the tool that matches your task and simplify
+            the repetitive part of your online workflow.
+          </p>
+
+          <a
+            class="cta-link"
+            href="https://www.tekzo.tech/tools/"
+          >
+            Explore more free tools →
+          </a>
+
+        </section>
+
+      </article>
+
+
+      <!-- ======================================================
+           SIDEBAR
+           ====================================================== -->
+
+      <aside
+        class="toc"
+        aria-label="Table of contents"
+      >
+
+        <div class="toc-title">
+          On this page
+        </div>
+
+        <a href="#stripe-fee-calculator">
+          Stripe Fee Calculator
+        </a>
+
+        <a href="#vinted-fee-calculator">
+          Vinted Fee Calculator
+        </a>
+
+        <a href="#venmo-fee-calculator">
+          Venmo Fee Calculator
+        </a>
+
+        <a href="#depop-fee-calculator">
+          Depop Fee Calculator
+        </a>
+
+        <a href="#fiverr-earnings-calculator">
+          Fiverr Earnings Calculator
+        </a>
+
+        <a href="#twitch-title-generator">
+          Twitch Title Generator
+        </a>
+
+        <a href="#comparison">
+          Tool Comparison
+        </a>
+
+        <a href="#why-tools">
+          Why These Tools Help
+        </a>
+
+        <a href="#workflow">
+          Simple Workflow
+        </a>
+
+        <a href="#faq">
+          FAQ
+        </a>
+
+      </aside>
+
+    </div>
+
+  </main>
+
+
+  <!-- ========================================================
+       FOOTER
+       ======================================================== -->
+
+  <footer>
+
+    <div class="footer-inner">
+
+      <div>
+        © 2026 Online Tools Guide
+      </div>
+
+      <div>
+
+        <a href="https://omratan688-svg.github.io/">
+          Home
+        </a>
+
+        &nbsp;·&nbsp;
+
+        <a href="https://omratan688-svg.github.io/Guide/">
+          Guide
+        </a>
+
+        &nbsp;·&nbsp;
+
+        <a href="https://www.tekzo.tech/tools/">
+          Tools
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
